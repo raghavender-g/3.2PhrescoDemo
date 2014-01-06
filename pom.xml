@@ -2,14 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.photon.phresco</groupId>
   <artifactId>EshopWidget</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>EshopWidget</name>
   <packaging>war</packaging>
   <scm>
 <connection>https://github.com/raghavender-g/3.2PhrescoDemo.git</connection>
 <developerConnection>scm:git:https://github.com/raghavender-g/3.2PhrescoDemo.git</developerConnection>
 <url>scm:git:https://github.com/raghavender-g/3.2PhrescoDemo.git</url>
-  <tag>3.2Beta</tag>
+  <tag>HEAD</tag>
   </scm>
 <build>
 	<plugins>
