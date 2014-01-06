@@ -48,11 +48,11 @@
                         <value key="js" dependency="showSettings,environmentName">js</value>
                     </possibleValues>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>js</value>
                     <sort>false</sort>
                     <show>true</show>
                 </parameter>
-				 <parameter>
+                <parameter>
                     <name>
                         <value lang="en">Show Settings</value>
                     </name>
@@ -62,12 +62,12 @@
                     <description></description>
                     <key>showSettings</key>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>false</value>
                     <sort>false</sort>
                     <show>false</show>
                     <dependency>environmentName</dependency>
                 </parameter>
-				  <parameter>
+                <parameter>
                     <name>
                         <value lang="en">Environment</value>
                     </name>
@@ -76,10 +76,10 @@
                         <class>com.photon.phresco.impl.EnvironmentsParameterImpl</class>
                         <dependencies>
                             <dependency>
-								<groupId>com.photon.phresco.commons</groupId>
-								<artifactId>phresco-commons</artifactId>
-								<type>jar</type>
-								<version>3.2.0.8000</version>
+<groupId>com.photon.phresco.commons</groupId>
+<artifactId>phresco-commons</artifactId>
+<type>jar</type>
+<version>3.2.0.8000</version>
                             </dependency>
                         </dependencies>
                     </dynamicParameter>
@@ -87,12 +87,12 @@
                     <editable>true</editable>
                     <key>environmentName</key>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>Production</value>
                     <sort>false</sort>
                     <show>true</show>
-					<dependency>webservices</dependency>
+                    <dependency>webservices</dependency>
                 </parameter>
-				<parameter>
+                <parameter>
                     <pluginParameter>plugin</pluginParameter>
                     <mavenCommands>
                         <mavenCommand>
@@ -119,11 +119,11 @@
                     <editable>true</editable>
                     <key>webservices</key>
                     <multiple>false</multiple>
-                    <value></value>
+                    <value>Webservice Configuration</value>
                     <sort>false</sort>
                     <show>true</show>
                 </parameter>
-				 <parameter>
+                <parameter>
                     <pluginParameter>framework</pluginParameter>
                     <mavenCommands>
                         <mavenCommand>

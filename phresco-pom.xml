@@ -10,11 +10,17 @@
 	<developerConnection>scm:git:https://github.com/raghavender-g/3.2PhrescoDemo.git</developerConnection>
 	<url>scm:git:https://github.com/raghavender-g/3.2PhrescoDemo.git</url>
 	</scm>
+	 <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:6060/nexus/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
   <build>
 		<sourceDirectory>${phresco.source.directory}</sourceDirectory>
         <testSourceDirectory>${testSourceDirectory}</testSourceDirectory>
 		<directory>do_not_checkin/target</directory>
-		<finalName>service</finalName>
+		<finalName>jquerymultieshop</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

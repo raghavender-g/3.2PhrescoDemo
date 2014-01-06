@@ -11,6 +11,13 @@
 <url>scm:git:https://github.com/raghavender-g/3.2PhrescoDemo.git</url>
   <tag>HEAD</tag>
   </scm>
+  <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:6060/nexus/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
+	
 <build>
 	<plugins>
 	<plugin>

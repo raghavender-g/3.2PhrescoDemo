@@ -63,12 +63,12 @@
                     <key>src</key>
                     <possibleValues>
                         <value key="js" dependency="showSettings,environmentName,skipTests">js</value>
-						<value key="java" dependency="skipTests">java</value>
+                        <value key="java" dependency="skipTests">java</value>
                         <value key="html">html</value>
                         <value key="web">jsp/jsf</value>
                     </possibleValues>
                     <multiple>false</multiple>
-                    <value>js</value>
+                    <value>java</value>
                     <sort>false</sort>
                     <show>false</show>
                 </parameter>
@@ -93,7 +93,7 @@
                     <description></description>
                     <key>skipTests</key>
                     <multiple>false</multiple>
-                    <value>false</value>
+                    <value>true</value>
                     <sort>false</sort>
                     <show>false</show>
                 </parameter>
@@ -136,7 +136,7 @@
                     <sort>false</sort>
                     <show>true</show>
                 </parameter>
-				<parameter>
+                <parameter>
                     <pluginParameter>framework</pluginParameter>
                     <mavenCommands>
                         <mavenCommand>
